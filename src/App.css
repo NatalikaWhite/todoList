@@ -1,0 +1,61 @@
+body{
+  background: url(noteOrange.jpg);
+  height: 100vh;
+}
+
+.App{
+  background: rgba(245, 244, 246, 0.8);
+  min-height: 80vh;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.crossed{
+  text-decoration: line-through 2px brown;
+  background-color: #fbc457;
+  width: 300px;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  padding: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  color: white;
+  border-radius: 15px;
+
+}
+
+.add{
+background-color: #7fc100;
+border: 1px solid #65a201;
+margin-top: 20px;
+}
+
+.delete{
+  background-color: #ff4e19;
+  border: 1px solid #a24401;
+
+}
+
+.inputik{
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 7px;
+  padding: 10px;
+  border: 1px solid brown;
+}
